@@ -19,6 +19,7 @@ body {
 }
 
 /*----------HOME PAGE:START----------*/
+
 #home {
 	background-color: var(--main-bg-color);
 	height: 100vh;
@@ -335,7 +336,7 @@ h1 {
 	width: 85%;
 	height: 100%;
 	padding: 60px;
-	overflow-y: scroll;
+	overflow-y: hidden;
 }
 
 .card-content {
@@ -406,9 +407,6 @@ p {
 	margin-left: 30px;
 	line-height: 30px;
 }
-
-
-
 
 /*----------DETAIL PAGE:END----------*/
 
