@@ -42,7 +42,7 @@ h1 {
 	/*position: absolute;
 	top: 12%;*/
 	position: absolute;
-	bottom: 380px;
+	bottom: 370px;
 }
 
 #house-text {
@@ -409,5 +409,53 @@ p {
 }
 
 /*----------DETAIL PAGE:END----------*/
+
+/*----------MOBILE:START----------*/
+
+@media screen and (max-width: 700px) {
+	body {
+		width: 100vw;
+		height: 200vh;
+	}
+   
+  	h1 {
+  	 	font-size: 50px;
+ 	}
+
+	.plant {
+	   	transform: scale(0.8);
+	}
+
+	.plant:hover {
+ 	  	transform: scale(0.9);
+  	}
+
+    #plants-container {
+   		left: 40px;
+    }
+
+    #card-view {
+/* 	  	background-color: lightpink;
+*/    }
+
+    #menu-icons {
+  	 	width: 80vw;
+ 	  	padding: 0px;
+ 	  	justify-content: space-between;
+    }
+
+  	.about-button {
+
+    }
+
+
+
+
+}
+
+
+
+/*----------MOBILE:END----------*/
+
 
 
